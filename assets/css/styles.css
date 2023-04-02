@@ -1,0 +1,103 @@
+body {
+  font-family: "Roboto", sans-serif;
+  margin: 0;
+}
+
+/*Header, titulo e imagen*/
+header {
+  height: 15em;
+  background-image: url("../img/fondo-header.jpg");
+  background-size: cover;
+  display: flex;
+  justify-content: space-between;
+  padding: 1.3em;
+}
+.header {
+  margin-left: 3em;
+  margin-top: 3.3em;
+}
+.header p {
+  color: whitesmoke;
+}
+
+header h1 {
+  font-size: 3em;
+  color: whitesmoke;
+  margin-top: 0.6em;
+  margin-bottom: 0;
+}
+
+.logo {
+  height: 9em;
+  margin-top: 2em;
+}
+
+/*Main*/
+main {
+  padding: 1.3em;
+}
+
+.tittle-2 {
+  font-size: 3em;
+  text-align: center;
+}
+.producto {
+  width: 80%;
+  margin: auto;
+}
+.producto td {
+  width: 50%;
+  padding: 2em;
+}
+.producto img {
+  height: 31em;
+  width: 31em;
+  border: solid 1px #ddd;
+}
+p,
+ul {
+  font-size: 1.5em;
+}
+
+/*Efecto Hover Productos*/
+
+.producto .img-show {
+  position: absolute;
+  transition: opacity 1s ease-in-out;
+}
+.producto .img-show:hover {
+  opacity: 0;
+}
+
+/*FOOTER*/
+
+footer .footer {
+  background-color: #cac6c6;
+  padding: 1.2em;
+  text-align: center;
+}
+footer .contacto {
+  font-size: 1.5em;
+  font-weight: bold;
+}
+/*Estilos generales para la lista del footer*/
+footer ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+footer li {
+  display: inline-block;
+  margin: 0 0.7em;
+}
+
+footer a i {
+  font-size: 2em;
+  color: #333;
+}
+footer a:hover .whatsapp {
+  color: #00bb2d;
+}
+footer a:hover .instagram {
+  color: #a80760;
+}
